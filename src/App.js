@@ -59,6 +59,8 @@ const AppWithNavigation = () => {
       <main className="flex-grow p-0 bg-gray-100">
         <Routes>
           <Route path="/jobportal" element={<JobPortal />} />
+          <Route path="/" element={<JobPortal />} />
+
           <Route path="/jobs" element={<Jobs />} />
           <Route path="/details/:companyId" element={<JobDetails />} />
         </Routes>

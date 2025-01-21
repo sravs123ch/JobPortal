@@ -255,7 +255,8 @@ const handleEditInternship = (index) => {
       };
 
   return (
-    <div style={{ fontFamily: "Arial, sans-serif", margin: "100px", marginLeft: "200px",marginTop:"40px" }}>
+    // <div style={{ fontFamily: "Arial, sans-serif", margin: "100px", marginLeft: "200px",marginTop:"40px" }}>
+    <div class="font-sans mx-4 mt-10 lg:mx-20 lg:mt-16 xl:mx-48 xl:mt-24">
         <h1 className="text-center text-4xl font-semibold mb-4">
  Application Form
 </h1>
@@ -795,6 +796,7 @@ const handleEditInternship = (index) => {
 
     </div>
   );
+
 };
 
 export default JobPortal;
